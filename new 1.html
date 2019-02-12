@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: gray;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #484B70;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #959494;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Nuevas Tecnologias</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Servidores</a></li>
+          <li><a href="#section2">Servidores de Aplicaciones</a></li>
+          <li><a href="#section3">Repositorios</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">TIPOS DE REPOSITORIOS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Mercurial</a></li>
+              <li><a href="#section42">GitHub</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Servidores Web</h1>
+  <p ALIGN="justify">
+					   Servidor Web. Es un programa que gestiona cualquier aplicación en el lado del servidor realizando 
+					   conexiones bidireccionales y/o unidireccionales y síncronas o asíncronas con el cliente generando 
+					   una respuesta en cualquier lenguaje o aplicación en el lado del cliente. El código recibido por el 
+					   cliente suele ser compilado y ejecutado por un Navegador Web. Para la transmisión de todos estos 
+					   datos se utiliza algún protocolo. Generalmente se utiliza el protocolo HTTP para estas comunicaciones, 
+					   perteneciente a la capa de aplicación del Modelo OSI. El término también se emplea para referirse al 
+					   ordenador que ejecuta el programa.
+					   <br>
+					   Bibliografia: <a href="https://www.ecured.cu/Servidor_Web">https://www.ecured.cu/Servidor_Web</a>
+					</p>
+					<p ALIGN="justify" ><img src = "1.jpg" width = "300" height = "200" ></p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Servidores de Aplicaciones Java</h1>
+  <p ALIGN="justify">1) GlassFish es un servidor de aplicaciones de software libre desarrollado por Sun Microsystems, compañía adquirida 
+  por Oracle Corporation, que implementa las tecnologías definidas en la plataforma Java EE y permite ejecutar aplicaciones que siguen esta especificación<br>
+  </p>
+  <p ALIGN="justify">2) WildFly, ​ anteriormente conocido como JBoss AS, o simplemente JBoss, es un servidor de aplicaciones Java EE de código 
+  abierto implementado en Java puro, más concretamente la especificación Java EE.<br></p>
+  
+  <p ALIGN="justify">3) Apache Tomcat funciona como un contenedor de servlets desarrollado bajo el proyecto Jakarta en la Apache Software Foundation. 
+  Tomcat implementa las especificaciones de los servlets y de JavaServer Pages de Oracle Corporation.<br>
+  </p>
+  <p ALIGN="justify" ><img src = "2.jpg" width = "300" height = "200" ></p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Repositorios</h1>
+  <p ALIGN="justify">Repositorio es un término que tiene su raíz etimológica en repositorĭum, un vocablo latino. Un repositorio es un espacio que se utiliza para almacenar distintas cosas. ... 
+  En este sentido, actualmente se suele hacer referencia a las bases de datos digitales y a diversos sistemas informáticos como repositorios.<br></p>
+  <p ALIGN="justify" ><img src = "3.png" width = "300" height = "200" ></p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Mercurial</h1>
+  <p ALIGN="justify">Mercurial es un sistema de control de versiones multiplataforma, para desarrolladores de software. Está implementado principalmente haciendo uso del lenguaje de programación Python,
+  pero incluye una implementación binaria de diff escrita en C. Mercurial fue escrito originalmente para funcionar sobre GNU/Linux.<br></p>
+  <p ALIGN="justify" ><img src = "4.png" width = "300" height = "200" ></p>
+  
+</div>
+<div id="section42" class="container-fluid">
+  <h1>GitHub</h1>
+  <p ALIGN="justify">GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de computadora. 
+  El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc<br></p>
+  <p ALIGN="justify" ><img src = "5.png" width = "300" height = "200" ></p>
+</div>
+</body>
+</html>
